@@ -1,0 +1,13 @@
+.shop {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+}
+.product {
+  width: 70%;
+  margin: 5px;
+  border-right: rgb(196, 186, 186) 1px solid;
+}
+.cart {
+  width: 30%;
+  margin: 5px;
+}

@@ -1,0 +1,27 @@
+.item-container {
+  margin: 5px;
+  padding: 4px;
+}
+.button {
+  z-index: 6;
+  margin-top: 5px;
+  padding: 3px 40px 3px 40px;
+  background-color: #f0c14b;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #f8a808;
+}
+.item-container h4 {
+  line-height: 25px;
+  color: rgb(97, 97, 151);
+}
+.image {
+  padding: 5px;
+}
+.whole {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
