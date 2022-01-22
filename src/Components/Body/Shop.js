@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import fakeData from "../../fakeData";
-import Cart from "./Cart";
 import Item from "./Item";
 
 function Shop() {
@@ -11,8 +10,6 @@ function Shop() {
     const newCart = [...cart, e];
     setCart(newCart);
   };
-
-  console.log(cart);
   return (
     <div>
       <Item items={item} fun={handleAddToCart} cartArray={cart} />
